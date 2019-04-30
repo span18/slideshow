@@ -191,10 +191,3 @@ img {
 #slider:hover .progress-bar {
    animation-play-state: paused;
 }
-
-
-@media screen and (max-width: 730px) {
-	#container {
-		width: 100%;
-	}
-}
