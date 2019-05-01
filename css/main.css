@@ -197,13 +197,27 @@ p {
 }
 article {
 	text-align: center;
-	padding: 50px;
+	padding-top: 50px;
 }
 
-span {
-	border-bottom: 2px solid black;
+a {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  cursor: default;
 }
 
-span:hover {
-	border-bottom: 2px solid red;
+a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 1em;
+  width: 100%;
+  border-bottom: 15px solid rgb(60, 179, 113);
+  margin-top: -10px;
+  opacity: 0.4;
+  border-radius: 10%
 }
+
+	
