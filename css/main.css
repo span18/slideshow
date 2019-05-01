@@ -216,7 +216,7 @@ a::after {
   height: 1em;
   width: 100%;
   border-bottom: 15px solid rgb(60, 179, 113);
-  margin-top: -10px;
+  margin-top: -8px;
   opacity: 0.4;
   border-radius: 10%
 }
